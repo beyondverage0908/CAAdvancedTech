@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CAShapeLayerController">
+            <connections>
+                <outlet property="containView" destination="5QF-nm-xAH" id="WYk-CS-ZfK"/>
+                <outlet property="container2View" destination="H2U-gm-1gJ" id="yBU-eQ-16I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5QF-nm-xAH">
+                    <rect key="frame" x="10" y="80" width="580" height="250"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="0tg-UB-NZH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2U-gm-1gJ">
+                    <rect key="frame" x="10" y="340" width="580" height="250"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="H2U-gm-1gJ" firstAttribute="top" secondItem="5QF-nm-xAH" secondAttribute="bottom" constant="10" id="2Ul-RZ-TZZ"/>
+                <constraint firstAttribute="trailing" secondItem="H2U-gm-1gJ" secondAttribute="trailing" constant="10" id="8dO-Sf-G3m"/>
+                <constraint firstItem="H2U-gm-1gJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="D4v-1u-GXY"/>
+                <constraint firstAttribute="bottom" secondItem="H2U-gm-1gJ" secondAttribute="bottom" constant="10" id="XVM-ht-IZx"/>
+                <constraint firstItem="5QF-nm-xAH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="nVI-GN-fQP"/>
+                <constraint firstAttribute="trailing" secondItem="5QF-nm-xAH" secondAttribute="trailing" constant="10" id="reK-NM-uY3"/>
+                <constraint firstItem="5QF-nm-xAH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="sla-hw-Jjw"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>
