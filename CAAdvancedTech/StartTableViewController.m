@@ -13,6 +13,9 @@
 #import "CAShapeLayerController.h"
 #import "TestOfBundleController.h"
 #import "AESRSA128Controller.h"
+#import "ContactsController.h"
+#import "LeakInspectorViewController.h"
+#import "SwizzlingViewController.h"
 
 @interface StartTableViewController ()
 
@@ -31,7 +34,10 @@
                                                 @"基础动画",
                                                 @"CAShapeLayer",
                                                 @"测试Bundle文件",
-                                                @"RSA,AES128数据加密"]];
+                                                @"RSA,AES128数据加密",
+                                                @"融云聊天联系人",
+                                                @"ViewController和View内存释放顺序释放检测",
+                                                @"MethodSwizzling实现"]];
     
     _controllersArr = [NSMutableArray new];
     [_controllersArr addObjectsFromArray:@[@"FirstViewController",
@@ -39,7 +45,10 @@
                                            @"CABaseViewController",
                                            @"CAShapeLayerController",
                                            @"TestOfBundleController",
-                                           @"AESRSA128Controller"]];
+                                           @"AESRSA128Controller",
+                                           @"ContactsController",
+                                           @"LeakInspectorViewController",
+                                           @"SwizzlingViewController"]];
 }
 
 - (void)viewDidLoad {
