@@ -39,7 +39,6 @@
 		335A172B1D4315E100B5A5BC /* CAAdvancedTechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A172A1D4315E100B5A5BC /* CAAdvancedTechTests.m */; };
 		335A17361D4315E100B5A5BC /* CAAdvancedTechUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A17351D4315E100B5A5BC /* CAAdvancedTechUITests.m */; };
 		335A17481D43176200B5A5BC /* StartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A17471D43176200B5A5BC /* StartTableViewController.m */; };
-		335A174B1D4317B400B5A5BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A174A1D4317B400B5A5BC /* FirstViewController.m */; };
 		335A174F1D43702F00B5A5BC /* ThreeDTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A174D1D43702F00B5A5BC /* ThreeDTransformController.m */; };
 		335A17501D43702F00B5A5BC /* ThreeDTransformController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335A174E1D43702F00B5A5BC /* ThreeDTransformController.xib */; };
 		33699FA51E24AABE00C6F12E /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33699FA41E24AABE00C6F12E /* ChatController.m */; };
@@ -77,6 +76,10 @@
 		3377387B1E24BBBE00CDC835 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377387A1E24BBBE00CDC835 /* ContactsController.m */; };
 		337738891E26232F00CDC835 /* SimpleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 337738881E26232F00CDC835 /* SimpleMessage.m */; };
 		3377388C1E2624B000CDC835 /* SimpleMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377388B1E2624B000CDC835 /* SimpleMessageCell.m */; };
+		33877E471E54591D00194936 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33877E461E54591D00194936 /* FirstViewController.m */; };
+		33877E4A1E545ABC00194936 /* FistSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33877E491E545ABC00194936 /* FistSwiftViewController.swift */; };
+		33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */; };
+		33FECEC51E5810E5000E26AD /* ElevatorControlCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,8 +157,6 @@
 		335A17371D4315E100B5A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335A17461D43176200B5A5BC /* StartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTableViewController.h; sourceTree = "<group>"; };
 		335A17471D43176200B5A5BC /* StartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTableViewController.m; sourceTree = "<group>"; };
-		335A17491D4317B400B5A5BC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		335A174A1D4317B400B5A5BC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		335A174C1D43702F00B5A5BC /* ThreeDTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDTransformController.h; sourceTree = "<group>"; };
 		335A174D1D43702F00B5A5BC /* ThreeDTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDTransformController.m; sourceTree = "<group>"; };
 		335A174E1D43702F00B5A5BC /* ThreeDTransformController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeDTransformController.xib; sourceTree = "<group>"; };
@@ -199,6 +200,13 @@
 		337738881E26232F00CDC835 /* SimpleMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMessage.m; sourceTree = "<group>"; };
 		3377388A1E2624B000CDC835 /* SimpleMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMessageCell.h; sourceTree = "<group>"; };
 		3377388B1E2624B000CDC835 /* SimpleMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMessageCell.m; sourceTree = "<group>"; };
+		33877E451E54591D00194936 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		33877E461E54591D00194936 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		33877E491E545ABC00194936 /* FistSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FistSwiftViewController.swift; sourceTree = "<group>"; };
+		33877E4B1E545D0400194936 /* CAAdvancedTech-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAdvancedTech-Bridging-Header.h"; sourceTree = "<group>"; };
+		33FECEC11E57F9CC000E26AD /* CAAdvancedTech.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAdvancedTech.pch; sourceTree = "<group>"; };
+		33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorControlCenterController.swift; sourceTree = "<group>"; };
+		33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElevatorControlCenterController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,15 +374,6 @@
 			name = ThreeDTransform;
 			sourceTree = "<group>";
 		};
-		334AA5BE1D45AEB900549690 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				335A17491D4317B400B5A5BC /* FirstViewController.h */,
-				335A174A1D4317B400B5A5BC /* FirstViewController.m */,
-			);
-			name = test;
-			sourceTree = "<group>";
-		};
 		334AA5BF1D45AED600549690 /* CABaseAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +419,7 @@
 		335A170F1D4315E100B5A5BC /* CAAdvancedTech */ = {
 			isa = PBXGroup;
 			children = (
+				33877E4B1E545D0400194936 /* CAAdvancedTech-Bridging-Header.h */,
 				335A17131D4315E100B5A5BC /* AppDelegate.h */,
 				335A17141D4315E100B5A5BC /* AppDelegate.m */,
 				335A17461D43176200B5A5BC /* StartTableViewController.h */,
@@ -427,6 +427,7 @@
 				335A17191D4315E100B5A5BC /* Main.storyboard */,
 				335A171C1D4315E100B5A5BC /* Assets.xcassets */,
 				335A171E1D4315E100B5A5BC /* LaunchScreen.storyboard */,
+				33FECEC11E57F9CC000E26AD /* CAAdvancedTech.pch */,
 				335A17211D4315E100B5A5BC /* Info.plist */,
 				335A17101D4315E100B5A5BC /* Supporting Files */,
 			);
@@ -462,6 +463,8 @@
 		335A17451D43170000B5A5BC /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				33FECEBB1E57F79C000E26AD /* ElevatorControlCenter */,
+				33877E441E54591D00194936 /* Test */,
 				33403F311E4D5ED700B48DFB /* MethodSwizzling */,
 				3338D2EE1E4C67BA00117E4D /* MLeaksInspector */,
 				33699FA21E24AA9700C6F12E /* RongYunIM */,
@@ -470,7 +473,6 @@
 				334AA5C51D460CBE00549690 /* CAShapeLayer */,
 				334AA5BF1D45AED600549690 /* CABaseAnimation */,
 				334AA5BD1D45AE9C00549690 /* ThreeDTransform */,
-				334AA5BE1D45AEB900549690 /* test */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -560,6 +562,49 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		33877E441E54591D00194936 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				33877E451E54591D00194936 /* FirstViewController.h */,
+				33877E461E54591D00194936 /* FirstViewController.m */,
+				33877E491E545ABC00194936 /* FistSwiftViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		33FECEBB1E57F79C000E26AD /* ElevatorControlCenter */ = {
+			isa = PBXGroup;
+			children = (
+				33FECEBC1E57F7D1000E26AD /* Controller */,
+				33FECEBD1E57F7D1000E26AD /* Model */,
+				33FECEBE1E57F7D1000E26AD /* View */,
+			);
+			path = ElevatorControlCenter;
+			sourceTree = "<group>";
+		};
+		33FECEBC1E57F7D1000E26AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */,
+				33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33FECEBD1E57F7D1000E26AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33FECEBE1E57F7D1000E26AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -628,6 +673,7 @@
 					335A170C1D4315E100B5A5BC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = P4Q3S6FX46;
+						LastSwiftMigration = 0810;
 					};
 					335A17251D4315E100B5A5BC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -669,6 +715,7 @@
 				337738411E24B54F00CDC835 /* Emoji.plist in Resources */,
 				335A17201D4315E100B5A5BC /* LaunchScreen.storyboard in Resources */,
 				337738461E24B54F00CDC835 /* RCConfig.plist in Resources */,
+				33FECEC51E5810E5000E26AD /* ElevatorControlCenterController.xib in Resources */,
 				334AA5CA1D460CE700549690 /* CAShapeLayerController.xib in Resources */,
 				334AA5C41D45AF0A00549690 /* CABaseViewController.xib in Resources */,
 				3342EFDE1E1E7BA90070FA08 /* rsa_public_key.der in Resources */,
@@ -712,6 +759,8 @@
 				33403F3A1E4D5FEF00B48DFB /* SwizzlingSonViewController.m in Sources */,
 				3338D2F91E4C6B9E00117E4D /* LeakFirstView.m in Sources */,
 				335A17121D4315E100B5A5BC /* main.m in Sources */,
+				33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */,
+				33877E471E54591D00194936 /* FirstViewController.m in Sources */,
 				335A17481D43176200B5A5BC /* StartTableViewController.m in Sources */,
 				3342EFDC1E1E743B0070FA08 /* RSAEncryptor.m in Sources */,
 				33403F341E4D5EFE00B48DFB /* SwizzlingViewController.m in Sources */,
@@ -720,6 +769,7 @@
 				337738891E26232F00CDC835 /* SimpleMessage.m in Sources */,
 				3377387B1E24BBBE00CDC835 /* ContactsController.m in Sources */,
 				335A174F1D43702F00B5A5BC /* ThreeDTransformController.m in Sources */,
+				33877E4A1E545ABC00194936 /* FistSwiftViewController.swift in Sources */,
 				332204C21E1E3D6A00A40248 /* GTMBase64.m in Sources */,
 				334A9B461E14D736008969E4 /* TestOfBundleController.m in Sources */,
 				3338D2F11E4C67F500117E4D /* LeakInspectorViewController.m in Sources */,
@@ -729,7 +779,6 @@
 				3338D2F61E4C68ED00117E4D /* InspectorContainerView.m in Sources */,
 				33699FA51E24AABE00C6F12E /* ChatController.m in Sources */,
 				3377388C1E2624B000CDC835 /* SimpleMessageCell.m in Sources */,
-				335A174B1D4317B400B5A5BC /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,6 +930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -888,6 +938,8 @@
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMKit",
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMLib",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAAdvancedTech/CAAdvancedTech.pch";
 				INFOPLIST_FILE = CAAdvancedTech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -899,6 +951,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CAAdvancedTech/CAAdvancedTech-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -906,6 +961,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -913,6 +969,8 @@
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMKit",
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMLib",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAAdvancedTech/CAAdvancedTech.pch";
 				INFOPLIST_FILE = CAAdvancedTech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -924,12 +982,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CAAdvancedTech/CAAdvancedTech-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		335A173E1D4315E100B5A5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CAAdvancedTechTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -942,6 +1003,7 @@
 		335A173F1D4315E100B5A5BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CAAdvancedTechTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -954,6 +1016,7 @@
 		335A17411D4315E100B5A5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CAAdvancedTechUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTechUITests;
@@ -965,6 +1028,7 @@
 		335A17421D4315E100B5A5BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CAAdvancedTechUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTechUITests;

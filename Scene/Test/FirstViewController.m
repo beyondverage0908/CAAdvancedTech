@@ -22,8 +22,15 @@
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, self.view.frame.size.width - 200, 50)];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn setTitle:@"First Controller" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(firstBtn:) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:btn];
+}
+
+- (void)firstBtn:(UIButton *)btn {
+    FistSwiftViewController *firstSwiftVC = [[FistSwiftViewController alloc] init];
+    firstSwiftVC.title = @"第一个Swift试图";
+    [self.navigationController pushViewController:firstSwiftVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

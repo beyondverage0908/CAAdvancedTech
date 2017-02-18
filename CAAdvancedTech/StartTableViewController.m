@@ -17,6 +17,8 @@
 #import "LeakInspectorViewController.h"
 #import "SwizzlingViewController.h"
 
+@class ElevatorControlCenterController;
+
 @interface StartTableViewController ()
 
 @property (nonatomic, strong) NSMutableArray       *   controllersTitleArr;
@@ -37,7 +39,8 @@
                                                 @"RSA,AES128数据加密",
                                                 @"融云聊天联系人",
                                                 @"ViewController和View内存释放顺序释放检测",
-                                                @"MethodSwizzling实现"]];
+                                                @"MethodSwizzling实现",
+                                                @"电梯控制中心"]];
     
     _controllersArr = [NSMutableArray new];
     [_controllersArr addObjectsFromArray:@[@"FirstViewController",
@@ -48,7 +51,8 @@
                                            @"AESRSA128Controller",
                                            @"ContactsController",
                                            @"LeakInspectorViewController",
-                                           @"SwizzlingViewController"]];
+                                           @"SwizzlingViewController",
+                                           @"ElevatorControlCenterController"]];
 }
 
 - (void)viewDidLoad {
@@ -89,7 +93,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UIViewController *controller = [[NSClassFromString(self.controllersArr[indexPath.row]) alloc] init];
+    UIViewController *controller = nil;
+    if ([@"ElevatorControlCenterController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[ElevatorControlCenterController alloc] init];
+    } else {
+        controller = [[NSClassFromString(self.controllersArr[indexPath.row]) alloc] init];
+    }
+
     controller.title = self.controllersTitleArr[indexPath.row];
     [self.navigationController pushViewController:controller animated:YES];
     
