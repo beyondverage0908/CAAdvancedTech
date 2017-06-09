@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330CB86A1E83B2510098664D /* UIView+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CB8691E83B2510098664D /* UIView+Tracking.m */; };
+		330CB86D1E83B50F0098664D /* SwizzlingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CB86C1E83B50F0098664D /* SwizzlingView.m */; };
 		332204C21E1E3D6A00A40248 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 332204BD1E1E3D6A00A40248 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		332204C71E1E3F7800A40248 /* AESRSA128Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 332204C51E1E3F7800A40248 /* AESRSA128Controller.m */; };
 		332204C81E1E3F7800A40248 /* AESRSA128Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332204C61E1E3F7800A40248 /* AESRSA128Controller.xib */; };
+		33318E381E84EFAD00270478 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 33318E371E84EFAD00270478 /* UIViewController+Swizzling.m */; };
+		33318E3B1E84F4AD00270478 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33318E3A1E84F4AD00270478 /* BaseViewController.m */; };
 		3338D2F11E4C67F500117E4D /* LeakInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D2F01E4C67F500117E4D /* LeakInspectorViewController.m */; };
 		3338D2F61E4C68ED00117E4D /* InspectorContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D2F51E4C68ED00117E4D /* InspectorContainerView.m */; };
 		3338D2F91E4C6B9E00117E4D /* LeakFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D2F81E4C6B9E00117E4D /* LeakFirstView.m */; };
 		3338D2FC1E4C6BBD00117E4D /* LeakSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D2FB1E4C6BBD00117E4D /* LeakSecondView.m */; };
 		3338D2FF1E4C6D6900117E4D /* LeakThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D2FE1E4C6D6900117E4D /* LeakThirdView.m */; };
 		3338D3021E4C6F0300117E4D /* LeakFourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338D3011E4C6F0300117E4D /* LeakFourView.m */; };
+		333A23281EEA9A88007C92EF /* IncomeRateCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333A23271EEA9A88007C92EF /* IncomeRateCalculatorController.swift */; };
 		33403F341E4D5EFE00B48DFB /* SwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33403F331E4D5EFE00B48DFB /* SwizzlingViewController.m */; };
 		33403F371E4D5F8800B48DFB /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 33403F361E4D5F8800B48DFB /* UIViewController+Tracking.m */; };
 		33403F3A1E4D5FEF00B48DFB /* SwizzlingSonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33403F391E4D5FEF00B48DFB /* SwizzlingSonViewController.m */; };
@@ -31,6 +36,7 @@
 		334AA5C41D45AF0A00549690 /* CABaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334AA5C21D45AF0A00549690 /* CABaseViewController.xib */; };
 		334AA5C91D460CE700549690 /* CAShapeLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AA5C71D460CE700549690 /* CAShapeLayerController.m */; };
 		334AA5CA1D460CE700549690 /* CAShapeLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334AA5C81D460CE700549690 /* CAShapeLayerController.xib */; };
+		33506DB91E5EAA4F006B1909 /* IOSFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33506DB81E5EAA4F006B1909 /* IOSFontViewController.swift */; };
 		335A17121D4315E100B5A5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A17111D4315E100B5A5BC /* main.m */; };
 		335A17151D4315E100B5A5BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A17141D4315E100B5A5BC /* AppDelegate.m */; };
 		335A171B1D4315E100B5A5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A17191D4315E100B5A5BC /* Main.storyboard */; };
@@ -42,6 +48,11 @@
 		335A174F1D43702F00B5A5BC /* ThreeDTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A174D1D43702F00B5A5BC /* ThreeDTransformController.m */; };
 		335A17501D43702F00B5A5BC /* ThreeDTransformController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335A174E1D43702F00B5A5BC /* ThreeDTransformController.xib */; };
 		33699FA51E24AABE00C6F12E /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33699FA41E24AABE00C6F12E /* ChatController.m */; };
+		3375E4791E89F7FE001D58E8 /* ConfigurationPlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375E4781E89F7FE001D58E8 /* ConfigurationPlistController.swift */; };
+		3375E47B1E89F997001D58E8 /* GlobalConfigList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3375E47A1E89F997001D58E8 /* GlobalConfigList.plist */; };
+		3375E47E1E89FC34001D58E8 /* SwiftBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375E47D1E89FC34001D58E8 /* SwiftBaseViewController.swift */; };
+		3375E4801E8A1824001D58E8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375E47F1E8A1824001D58E8 /* String+Extension.swift */; };
+		3375E4821E8CE98E001D58E8 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375E4811E8CE98E001D58E8 /* PlistManager.swift */; };
 		337738411E24B54F00CDC835 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 337738371E24B54F00CDC835 /* Emoji.plist */; };
 		337738421E24B54F00CDC835 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 337738381E24B54F00CDC835 /* RongCloudKit.strings */; };
 		337738431E24B54F00CDC835 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3377383A1E24B54F00CDC835 /* RongCloud.bundle */; };
@@ -78,6 +89,7 @@
 		3377388C1E2624B000CDC835 /* SimpleMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377388B1E2624B000CDC835 /* SimpleMessageCell.m */; };
 		33877E471E54591D00194936 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33877E461E54591D00194936 /* FirstViewController.m */; };
 		33877E4A1E545ABC00194936 /* FistSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33877E491E545ABC00194936 /* FistSwiftViewController.swift */; };
+		33FD92021EE801EB00BB8166 /* TCLLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD92011EE801EB00BB8166 /* TCLLocationController.swift */; };
 		33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */; };
 		33FECEC51E5810E5000E26AD /* ElevatorControlCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */; };
 /* End PBXBuildFile section */
@@ -100,12 +112,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330CB8681E83B2510098664D /* UIView+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tracking.h"; sourceTree = "<group>"; };
+		330CB8691E83B2510098664D /* UIView+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tracking.m"; sourceTree = "<group>"; };
+		330CB86B1E83B50F0098664D /* SwizzlingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingView.h; sourceTree = "<group>"; };
+		330CB86C1E83B50F0098664D /* SwizzlingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzlingView.m; sourceTree = "<group>"; };
 		332204BC1E1E3D6A00A40248 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		332204BD1E1E3D6A00A40248 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		332204BE1E1E3D6A00A40248 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		332204C41E1E3F7800A40248 /* AESRSA128Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESRSA128Controller.h; sourceTree = "<group>"; };
 		332204C51E1E3F7800A40248 /* AESRSA128Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESRSA128Controller.m; sourceTree = "<group>"; };
 		332204C61E1E3F7800A40248 /* AESRSA128Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AESRSA128Controller.xib; sourceTree = "<group>"; };
+		33318E361E84EFAD00270478 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		33318E371E84EFAD00270478 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		33318E391E84F4AD00270478 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		33318E3A1E84F4AD00270478 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		3338D2EF1E4C67F500117E4D /* LeakInspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeakInspectorViewController.h; sourceTree = "<group>"; };
 		3338D2F01E4C67F500117E4D /* LeakInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakInspectorViewController.m; sourceTree = "<group>"; };
 		3338D2F41E4C68ED00117E4D /* InspectorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorContainerView.h; sourceTree = "<group>"; };
@@ -118,6 +138,7 @@
 		3338D2FE1E4C6D6900117E4D /* LeakThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakThirdView.m; sourceTree = "<group>"; };
 		3338D3001E4C6F0300117E4D /* LeakFourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeakFourView.h; sourceTree = "<group>"; };
 		3338D3011E4C6F0300117E4D /* LeakFourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakFourView.m; sourceTree = "<group>"; };
+		333A23271EEA9A88007C92EF /* IncomeRateCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeRateCalculatorController.swift; sourceTree = "<group>"; };
 		33403F321E4D5EFE00B48DFB /* SwizzlingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingViewController.h; sourceTree = "<group>"; };
 		33403F331E4D5EFE00B48DFB /* SwizzlingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzlingViewController.m; sourceTree = "<group>"; };
 		33403F351E4D5F8800B48DFB /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
@@ -141,6 +162,7 @@
 		334AA5C61D460CE700549690 /* CAShapeLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerController.h; sourceTree = "<group>"; };
 		334AA5C71D460CE700549690 /* CAShapeLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerController.m; sourceTree = "<group>"; };
 		334AA5C81D460CE700549690 /* CAShapeLayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAShapeLayerController.xib; sourceTree = "<group>"; };
+		33506DB81E5EAA4F006B1909 /* IOSFontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSFontViewController.swift; sourceTree = "<group>"; };
 		335A170D1D4315E100B5A5BC /* CAAdvancedTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAdvancedTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335A17111D4315E100B5A5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		335A17131D4315E100B5A5BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +184,11 @@
 		335A174E1D43702F00B5A5BC /* ThreeDTransformController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeDTransformController.xib; sourceTree = "<group>"; };
 		33699FA31E24AABE00C6F12E /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
 		33699FA41E24AABE00C6F12E /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
+		3375E4781E89F7FE001D58E8 /* ConfigurationPlistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationPlistController.swift; sourceTree = "<group>"; };
+		3375E47A1E89F997001D58E8 /* GlobalConfigList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GlobalConfigList.plist; sourceTree = "<group>"; };
+		3375E47D1E89FC34001D58E8 /* SwiftBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBaseViewController.swift; sourceTree = "<group>"; };
+		3375E47F1E8A1824001D58E8 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3375E4811E8CE98E001D58E8 /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		337738371E24B54F00CDC835 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
 		337738391E24B54F00CDC835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
 		3377383A1E24B54F00CDC835 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
@@ -204,6 +231,7 @@
 		33877E461E54591D00194936 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		33877E491E545ABC00194936 /* FistSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FistSwiftViewController.swift; sourceTree = "<group>"; };
 		33877E4B1E545D0400194936 /* CAAdvancedTech-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAdvancedTech-Bridging-Header.h"; sourceTree = "<group>"; };
+		33FD92011EE801EB00BB8166 /* TCLLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCLLocationController.swift; sourceTree = "<group>"; };
 		33FECEC11E57F9CC000E26AD /* CAAdvancedTech.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAdvancedTech.pch; sourceTree = "<group>"; };
 		33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorControlCenterController.swift; sourceTree = "<group>"; };
 		33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElevatorControlCenterController.xib; sourceTree = "<group>"; };
@@ -319,6 +347,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		333A23261EEA99B8007C92EF /* 年华收益计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				333A23271EEA9A88007C92EF /* IncomeRateCalculatorController.swift */,
+			);
+			path = "年华收益计算器";
+			sourceTree = "<group>";
+		};
 		33403F311E4D5ED700B48DFB /* MethodSwizzling */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,8 +362,16 @@
 				33403F331E4D5EFE00B48DFB /* SwizzlingViewController.m */,
 				33403F381E4D5FEF00B48DFB /* SwizzlingSonViewController.h */,
 				33403F391E4D5FEF00B48DFB /* SwizzlingSonViewController.m */,
+				33318E361E84EFAD00270478 /* UIViewController+Swizzling.h */,
+				33318E371E84EFAD00270478 /* UIViewController+Swizzling.m */,
 				33403F351E4D5F8800B48DFB /* UIViewController+Tracking.h */,
 				33403F361E4D5F8800B48DFB /* UIViewController+Tracking.m */,
+				330CB8681E83B2510098664D /* UIView+Tracking.h */,
+				330CB8691E83B2510098664D /* UIView+Tracking.m */,
+				330CB86B1E83B50F0098664D /* SwizzlingView.h */,
+				330CB86C1E83B50F0098664D /* SwizzlingView.m */,
+				33318E391E84F4AD00270478 /* BaseViewController.h */,
+				33318E3A1E84F4AD00270478 /* BaseViewController.m */,
 			);
 			path = MethodSwizzling;
 			sourceTree = "<group>";
@@ -392,6 +436,14 @@
 				334AA5C81D460CE700549690 /* CAShapeLayerController.xib */,
 			);
 			name = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		33506DB71E5EAA4F006B1909 /* IOSFontIterator */ = {
+			isa = PBXGroup;
+			children = (
+				33506DB81E5EAA4F006B1909 /* IOSFontViewController.swift */,
+			);
+			path = IOSFontIterator;
 			sourceTree = "<group>";
 		};
 		335A17041D4315E100B5A5BC = {
@@ -463,6 +515,11 @@
 		335A17451D43170000B5A5BC /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				333A23261EEA99B8007C92EF /* 年华收益计算器 */,
+				33FD92001EE801C700BB8166 /* CLLocation */,
+				3375E47C1E89FC1F001D58E8 /* SwiftBase */,
+				3375E4771E89F7D0001D58E8 /* ConfigurationPlist */,
+				33506DB71E5EAA4F006B1909 /* IOSFontIterator */,
 				33FECEBB1E57F79C000E26AD /* ElevatorControlCenter */,
 				33877E441E54591D00194936 /* Test */,
 				33403F311E4D5ED700B48DFB /* MethodSwizzling */,
@@ -490,6 +547,25 @@
 				33699FA41E24AABE00C6F12E /* ChatController.m */,
 			);
 			path = RongYunIM;
+			sourceTree = "<group>";
+		};
+		3375E4771E89F7D0001D58E8 /* ConfigurationPlist */ = {
+			isa = PBXGroup;
+			children = (
+				3375E4781E89F7FE001D58E8 /* ConfigurationPlistController.swift */,
+				3375E47A1E89F997001D58E8 /* GlobalConfigList.plist */,
+				3375E4811E8CE98E001D58E8 /* PlistManager.swift */,
+			);
+			path = ConfigurationPlist;
+			sourceTree = "<group>";
+		};
+		3375E47C1E89FC1F001D58E8 /* SwiftBase */ = {
+			isa = PBXGroup;
+			children = (
+				3375E47D1E89FC34001D58E8 /* SwiftBaseViewController.swift */,
+				3375E47F1E8A1824001D58E8 /* String+Extension.swift */,
+			);
+			path = SwiftBase;
 			sourceTree = "<group>";
 		};
 		337738361E24B54F00CDC835 /* IMKit */ = {
@@ -570,6 +646,14 @@
 				33877E491E545ABC00194936 /* FistSwiftViewController.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		33FD92001EE801C700BB8166 /* CLLocation */ = {
+			isa = PBXGroup;
+			children = (
+				33FD92011EE801EB00BB8166 /* TCLLocationController.swift */,
+			);
+			path = CLLocation;
 			sourceTree = "<group>";
 		};
 		33FECEBB1E57F79C000E26AD /* ElevatorControlCenter */ = {
@@ -720,6 +804,7 @@
 				334AA5C41D45AF0A00549690 /* CABaseViewController.xib in Resources */,
 				3342EFDE1E1E7BA90070FA08 /* rsa_public_key.der in Resources */,
 				3342EFDB1E1E743B0070FA08 /* public_key.der in Resources */,
+				3375E47B1E89F997001D58E8 /* GlobalConfigList.plist in Resources */,
 				335A171D1D4315E100B5A5BC /* Assets.xcassets in Resources */,
 				337738431E24B54F00CDC835 /* RongCloud.bundle in Resources */,
 				3342EFE01E1E7D2E0070FA08 /* rsa_private_key.pem in Resources */,
@@ -756,16 +841,23 @@
 				3338D2FF1E4C6D6900117E4D /* LeakThirdView.m in Sources */,
 				332204C71E1E3F7800A40248 /* AESRSA128Controller.m in Sources */,
 				334AA5C31D45AF0A00549690 /* CABaseViewController.m in Sources */,
+				330CB86D1E83B50F0098664D /* SwizzlingView.m in Sources */,
 				33403F3A1E4D5FEF00B48DFB /* SwizzlingSonViewController.m in Sources */,
 				3338D2F91E4C6B9E00117E4D /* LeakFirstView.m in Sources */,
 				335A17121D4315E100B5A5BC /* main.m in Sources */,
+				3375E4801E8A1824001D58E8 /* String+Extension.swift in Sources */,
 				33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */,
+				33318E3B1E84F4AD00270478 /* BaseViewController.m in Sources */,
 				33877E471E54591D00194936 /* FirstViewController.m in Sources */,
+				3375E4821E8CE98E001D58E8 /* PlistManager.swift in Sources */,
+				3375E47E1E89FC34001D58E8 /* SwiftBaseViewController.swift in Sources */,
 				335A17481D43176200B5A5BC /* StartTableViewController.m in Sources */,
 				3342EFDC1E1E743B0070FA08 /* RSAEncryptor.m in Sources */,
 				33403F341E4D5EFE00B48DFB /* SwizzlingViewController.m in Sources */,
 				3342EFD61E1E72620070FA08 /* AES128Util.m in Sources */,
+				3375E4791E89F7FE001D58E8 /* ConfigurationPlistController.swift in Sources */,
 				334AA5C91D460CE700549690 /* CAShapeLayerController.m in Sources */,
+				333A23281EEA9A88007C92EF /* IncomeRateCalculatorController.swift in Sources */,
 				337738891E26232F00CDC835 /* SimpleMessage.m in Sources */,
 				3377387B1E24BBBE00CDC835 /* ContactsController.m in Sources */,
 				335A174F1D43702F00B5A5BC /* ThreeDTransformController.m in Sources */,
@@ -773,8 +865,12 @@
 				332204C21E1E3D6A00A40248 /* GTMBase64.m in Sources */,
 				334A9B461E14D736008969E4 /* TestOfBundleController.m in Sources */,
 				3338D2F11E4C67F500117E4D /* LeakInspectorViewController.m in Sources */,
+				33318E381E84EFAD00270478 /* UIViewController+Swizzling.m in Sources */,
+				33FD92021EE801EB00BB8166 /* TCLLocationController.swift in Sources */,
 				33403F371E4D5F8800B48DFB /* UIViewController+Tracking.m in Sources */,
 				3338D2FC1E4C6BBD00117E4D /* LeakSecondView.m in Sources */,
+				33506DB91E5EAA4F006B1909 /* IOSFontViewController.swift in Sources */,
+				330CB86A1E83B2510098664D /* UIView+Tracking.m in Sources */,
 				3338D3021E4C6F0300117E4D /* LeakFourView.m in Sources */,
 				3338D2F61E4C68ED00117E4D /* InspectorContainerView.m in Sources */,
 				33699FA51E24AABE00C6F12E /* ChatController.m in Sources */,

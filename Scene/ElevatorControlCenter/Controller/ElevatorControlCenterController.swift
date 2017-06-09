@@ -21,6 +21,13 @@ class ElevatorControlCenterController: UIViewController {
     @IBOutlet weak var secondElevator: UITextField!
     @IBOutlet weak var gotoElevatorTextField: UITextField!
     
+    @IBOutlet weak var threadValue: UILabel!
+    @IBOutlet weak var threadValueLabel2: UILabel!
+    
+    private var globalValue: Int = 0
+    
+    var timer: Timer = Timer()
+    
     static var elevatorRecordList: Array<Int> = Array.init(repeating: 1, count: elevatorCount)
     
     override func viewDidLoad() {
@@ -56,5 +63,31 @@ class ElevatorControlCenterController: UIViewController {
             ElevatorControlCenterController.elevatorRecordList[0] = floor
         }
     }
-
+    
+    // MARK - 测试现场对值的存取
+    @IBAction func startCountByThread(_ sender: UIButton) {
+        timer = Timer.scheduledTimer(timeInterval: 0.8, target: self, selector: #selector(startCountValue), userInfo: nil, repeats: true)
+    }
+    @IBAction func stopThreadCount(_ sender: UIButton) {
+        timer.invalidate()
+    }
+    
+    func startCountValue() {
+        DispatchQueue.global().async {
+            self.globalValue += 1
+            print("---->>> \(self.globalValue) ---->>>>thread: \(Thread.current)")
+            
+            DispatchQueue.main.async {
+                self.threadValue.text = String(self.globalValue)
+            }
+        }
+        
+        DispatchQueue.global().async { 
+            self.globalValue += 3
+            
+            DispatchQueue.main.async {
+                self.threadValueLabel2.text = String(self.globalValue);
+            }
+        }
+    }
 }

@@ -75,9 +75,9 @@
 
 - (void)drawConner {
     //define path parameters
-    CGRect rect = CGRectMake(50, 50, 100, 100);
+    CGRect rect = CGRectMake(0, 0, self.container2View.bounds.size.width, self.container2View.frame.size.height);
     CGSize radii = CGSizeMake(20, 20);
-    UIRectCorner corners = UIRectCornerTopRight | UIRectCornerBottomRight | UIRectCornerBottomLeft;
+    UIRectCorner corners = UIRectCornerBottomLeft | UIRectCornerBottomRight;
     //create path
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
     

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 /**
  *  实现每一个类被push的次数
  */
 
-@interface SwizzlingViewController : UIViewController
+@interface SwizzlingViewController : BaseViewController
 
 @end

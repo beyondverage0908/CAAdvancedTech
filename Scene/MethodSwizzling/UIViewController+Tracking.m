@@ -81,7 +81,7 @@
         }
         
         // 交换dismiss方法
-        [self swizzleSEL:@selector(dismissViewControllerAnimated:completion:) withSEL:@selector(swizzled_dismissViewControllerAnimated:completion:)];
+//        [self swizzleSEL:@selector(dismissViewControllerAnimated:completion:) withSEL:@selector(swizzled_dismissViewControllerAnimated:completion:)];
     });
 }
 
@@ -100,7 +100,6 @@
 
 - (void)xxx_viewWillAppear:(BOOL)animated {
     [self xxx_viewWillAppear:animated];
-    NSLog(@"viewWillAppear: %@", self);
 }
 
 @end

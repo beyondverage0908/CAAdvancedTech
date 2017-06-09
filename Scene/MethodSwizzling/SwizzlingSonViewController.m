@@ -8,8 +8,6 @@
 
 #import "SwizzlingSonViewController.h"
 
-static NSInteger swizzlingSonLoadNumbers = 0;
-
 @interface SwizzlingSonViewController ()
 
 @end
@@ -27,15 +25,15 @@ static NSInteger swizzlingSonLoadNumbers = 0;
     [btn setBackgroundColor:[UIColor yellowColor]];
     [btn addTarget:self action:@selector(backVCWithBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    
-    static NSInteger fstatic;
-    NSLog(@"fstatic addredd %p", &fstatic);
-    
-    NSString *externString = @"Hello";
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"---->>>>%@", NSStringFromClass([self class]));
 }
 
 - (void)backVCWithBtn:(UIButton *)backBtn {
-//    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated {

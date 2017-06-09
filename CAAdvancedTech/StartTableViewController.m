@@ -40,7 +40,11 @@
                                                 @"融云聊天联系人",
                                                 @"ViewController和View内存释放顺序释放检测",
                                                 @"MethodSwizzling实现",
-                                                @"电梯控制中心"]];
+                                                @"电梯控制中心",
+                                                @"iOS字体遍历器",
+                                                @"plist文件配置",
+                                                @"地理位置测试",
+                                                @"年化收益计算器"]];
     
     _controllersArr = [NSMutableArray new];
     [_controllersArr addObjectsFromArray:@[@"FirstViewController",
@@ -52,7 +56,11 @@
                                            @"ContactsController",
                                            @"LeakInspectorViewController",
                                            @"SwizzlingViewController",
-                                           @"ElevatorControlCenterController"]];
+                                           @"ElevatorControlCenterController",
+                                           @"IOSFontViewController",
+                                           @"ConfigurationPlistController",
+                                           @"TCLLocationController",
+                                           @"IncomeRateCalculatorController"]];
 }
 
 - (void)viewDidLoad {
@@ -63,6 +71,14 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+#pragma mark - Other Methods
+
+- (UIViewController *)controllerWithStoryboardName:(NSString *)storyboardName controllerId:(NSString *)identifier {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:[NSBundle mainBundle]];
+    UIViewController *vc=[storyboard instantiateViewControllerWithIdentifier:identifier];
+    return vc;
 }
 
 #pragma mark - Table view data source
@@ -96,7 +112,21 @@
     UIViewController *controller = nil;
     if ([@"ElevatorControlCenterController" isEqualToString:self.controllersArr[indexPath.row]]) {
         controller = [[ElevatorControlCenterController alloc] init];
-    } else {
+    }
+    else if ([@"IOSFontViewController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[IOSFontViewController alloc] init];
+    }
+    else if ([@"ConfigurationPlistController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[ConfigurationPlistController alloc] init];
+    }
+    else if ([@"TCLLocationController" isEqualToString:self.controllersArr[indexPath.row]]) {
+//        controller = [[TCLLocationController alloc] init];
+        controller = [self controllerWithStoryboardName:@"Main" controllerId:self.controllersArr[indexPath.row]];
+    }
+    else if ([@"IncomeRateCalculatorController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [self controllerWithStoryboardName:@"Main" controllerId:self.controllersArr[indexPath.row]];
+    }
+    else {
         controller = [[NSClassFromString(self.controllersArr[indexPath.row]) alloc] init];
     }
 
@@ -124,4 +154,7 @@
 //        [self.navigationController pushViewController:shapeVC animated:YES];
 //    }
 }
+
+
+
 @end
