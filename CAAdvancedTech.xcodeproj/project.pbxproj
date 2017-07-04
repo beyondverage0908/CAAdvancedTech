@@ -99,6 +99,7 @@
 		33FD92021EE801EB00BB8166 /* TCLLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD92011EE801EB00BB8166 /* TCLLocationController.swift */; };
 		33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */; };
 		33FECEC51E5810E5000E26AD /* ElevatorControlCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */; };
+		E45A9BCD38A28195D5893659 /* libPods-CAAdvancedTech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A3AE187F99B5CCB2A66ADA /* libPods-CAAdvancedTech.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A3AE187F99B5CCB2A66ADA /* libPods-CAAdvancedTech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CAAdvancedTech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D7221D554CBF8BE9DE8E0C /* Pods-CAAdvancedTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAAdvancedTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAAdvancedTech/Pods-CAAdvancedTech.debug.xcconfig"; sourceTree = "<group>"; };
 		330CB8681E83B2510098664D /* UIView+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tracking.h"; sourceTree = "<group>"; };
 		330CB8691E83B2510098664D /* UIView+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tracking.m"; sourceTree = "<group>"; };
 		330CB86B1E83B50F0098664D /* SwizzlingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingView.h; sourceTree = "<group>"; };
@@ -249,6 +252,7 @@
 		33FECEC11E57F9CC000E26AD /* CAAdvancedTech.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAdvancedTech.pch; sourceTree = "<group>"; };
 		33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorControlCenterController.swift; sourceTree = "<group>"; };
 		33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElevatorControlCenterController.xib; sourceTree = "<group>"; };
+		CC9A82EEB887C71E2303013A /* Pods-CAAdvancedTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAAdvancedTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAAdvancedTech/Pods-CAAdvancedTech.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +287,7 @@
 				337738441E24B54F00CDC835 /* RongIMKit.framework in Frameworks */,
 				337738471E24B54F00CDC835 /* RongIMLib.framework in Frameworks */,
 				337738451E24B54F00CDC835 /* libopencore-amrnb.a in Frameworks */,
+				E45A9BCD38A28195D5893659 /* libPods-CAAdvancedTech.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +519,7 @@
 				335A17341D4315E100B5A5BC /* CAAdvancedTechUITests */,
 				335A170E1D4315E100B5A5BC /* Products */,
 				337738481E24B5F800CDC835 /* Frameworks */,
+				E0845AC0065A3A985374B9D5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -677,6 +683,7 @@
 				3377384D1E24B60C00CDC835 /* AVFoundation.framework */,
 				3377384B1E24B60100CDC835 /* AudioToolbox.framework */,
 				337738491E24B5F800CDC835 /* AssetsLibrary.framework */,
+				11A3AE187F99B5CCB2A66ADA /* libPods-CAAdvancedTech.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -758,6 +765,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E0845AC0065A3A985374B9D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D7221D554CBF8BE9DE8E0C /* Pods-CAAdvancedTech.debug.xcconfig */,
+				CC9A82EEB887C71E2303013A /* Pods-CAAdvancedTech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -765,9 +781,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335A173A1D4315E100B5A5BC /* Build configuration list for PBXNativeTarget "CAAdvancedTech" */;
 			buildPhases = (
+				5D680E1D56FFD2D640587B0C /* [CP] Check Pods Manifest.lock */,
 				335A17091D4315E100B5A5BC /* Sources */,
 				335A170A1D4315E100B5A5BC /* Frameworks */,
 				335A170B1D4315E100B5A5BC /* Resources */,
+				70A623B8060540CCE7B0105B /* [CP] Embed Pods Frameworks */,
+				62DA12A4BAC340D26AB6A40D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -907,6 +926,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D680E1D56FFD2D640587B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62DA12A4BAC340D26AB6A40D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAAdvancedTech/Pods-CAAdvancedTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A623B8060540CCE7B0105B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAAdvancedTech/Pods-CAAdvancedTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		335A17091D4315E100B5A5BC /* Sources */ = {
@@ -1112,6 +1179,7 @@
 		};
 		335A173B1D4315E100B5A5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D7221D554CBF8BE9DE8E0C /* Pods-CAAdvancedTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1131,7 +1199,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMLib",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1143,6 +1214,7 @@
 		};
 		335A173C1D4315E100B5A5BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9A82EEB887C71E2303013A /* Pods-CAAdvancedTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1162,7 +1234,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Scene/RongYunIM/IMLib",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YiRunYuan.CAAdvancedTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
