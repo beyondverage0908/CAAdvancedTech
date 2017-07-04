@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>一个传说</string>
+	<string>传说</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -49,6 +49,8 @@
 			</dict>
 		</dict>
 	</dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>需要访问您的音乐库</string>
 	<key>NSCameraUsageDescription</key>
 	<string>需要访问您的相机</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -57,6 +59,10 @@
 	<string>需要访问您的麦克风</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要访问您的相册</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -38,7 +38,9 @@ class ElevatorControlCenterController: UIViewController {
     }
     
     @IBAction func go(_ sender: UIButton) {
-        let floor: Int = Int(gotoElevatorTextField.text!)!
+        guard let floor = Int(gotoElevatorTextField.text!) else {
+            return
+        }
         self.elevatorControlCenter(goFloor: floor)
     }
 

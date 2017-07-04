@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		330CB86A1E83B2510098664D /* UIView+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CB8691E83B2510098664D /* UIView+Tracking.m */; };
 		330CB86D1E83B50F0098664D /* SwizzlingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CB86C1E83B50F0098664D /* SwizzlingView.m */; };
+		3320B02D1EFBD1BB0019FA8D /* LPAudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320B0241EFBD1BB0019FA8D /* LPAudioTableViewCell.swift */; };
+		3320B02E1EFBD1BB0019FA8D /* LPAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320B0251EFBD1BB0019FA8D /* LPAudioViewController.swift */; };
+		3320B02F1EFBD1BB0019FA8D /* AudioAndVedioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320B0271EFBD1BB0019FA8D /* AudioAndVedioController.swift */; };
+		3320B0301EFBD1BB0019FA8D /* happy_ending.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3320B0291EFBD1BB0019FA8D /* happy_ending.mp3 */; };
+		3320B0311EFBD1BB0019FA8D /* kakao.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3320B02A1EFBD1BB0019FA8D /* kakao.caf */; };
+		3320B0321EFBD1BB0019FA8D /* LPVedioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320B02C1EFBD1BB0019FA8D /* LPVedioViewController.swift */; };
 		332204C21E1E3D6A00A40248 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 332204BD1E1E3D6A00A40248 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		332204C71E1E3F7800A40248 /* AESRSA128Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 332204C51E1E3F7800A40248 /* AESRSA128Controller.m */; };
 		332204C81E1E3F7800A40248 /* AESRSA128Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332204C61E1E3F7800A40248 /* AESRSA128Controller.xib */; };
@@ -89,6 +95,7 @@
 		3377388C1E2624B000CDC835 /* SimpleMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377388B1E2624B000CDC835 /* SimpleMessageCell.m */; };
 		33877E471E54591D00194936 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33877E461E54591D00194936 /* FirstViewController.m */; };
 		33877E4A1E545ABC00194936 /* FistSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33877E491E545ABC00194936 /* FistSwiftViewController.swift */; };
+		33F12DD41EF38AD80052C42D /* TestSafariController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F12DD31EF38AD80052C42D /* TestSafariController.swift */; };
 		33FD92021EE801EB00BB8166 /* TCLLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD92011EE801EB00BB8166 /* TCLLocationController.swift */; };
 		33FECEC41E5810E5000E26AD /* ElevatorControlCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */; };
 		33FECEC51E5810E5000E26AD /* ElevatorControlCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FECEC31E5810E5000E26AD /* ElevatorControlCenterController.xib */; };
@@ -116,6 +123,12 @@
 		330CB8691E83B2510098664D /* UIView+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tracking.m"; sourceTree = "<group>"; };
 		330CB86B1E83B50F0098664D /* SwizzlingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingView.h; sourceTree = "<group>"; };
 		330CB86C1E83B50F0098664D /* SwizzlingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzlingView.m; sourceTree = "<group>"; };
+		3320B0241EFBD1BB0019FA8D /* LPAudioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPAudioTableViewCell.swift; sourceTree = "<group>"; };
+		3320B0251EFBD1BB0019FA8D /* LPAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPAudioViewController.swift; sourceTree = "<group>"; };
+		3320B0271EFBD1BB0019FA8D /* AudioAndVedioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioAndVedioController.swift; sourceTree = "<group>"; };
+		3320B0291EFBD1BB0019FA8D /* happy_ending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy_ending.mp3; sourceTree = "<group>"; };
+		3320B02A1EFBD1BB0019FA8D /* kakao.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kakao.caf; sourceTree = "<group>"; };
+		3320B02C1EFBD1BB0019FA8D /* LPVedioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPVedioViewController.swift; sourceTree = "<group>"; };
 		332204BC1E1E3D6A00A40248 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		332204BD1E1E3D6A00A40248 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		332204BE1E1E3D6A00A40248 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -231,6 +244,7 @@
 		33877E461E54591D00194936 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		33877E491E545ABC00194936 /* FistSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FistSwiftViewController.swift; sourceTree = "<group>"; };
 		33877E4B1E545D0400194936 /* CAAdvancedTech-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAdvancedTech-Bridging-Header.h"; sourceTree = "<group>"; };
+		33F12DD31EF38AD80052C42D /* TestSafariController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSafariController.swift; sourceTree = "<group>"; };
 		33FD92011EE801EB00BB8166 /* TCLLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCLLocationController.swift; sourceTree = "<group>"; };
 		33FECEC11E57F9CC000E26AD /* CAAdvancedTech.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAdvancedTech.pch; sourceTree = "<group>"; };
 		33FECEC21E5810E5000E26AD /* ElevatorControlCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorControlCenterController.swift; sourceTree = "<group>"; };
@@ -289,6 +303,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3320B0221EFBD1BB0019FA8D /* AudioVedioMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3320B0231EFBD1BB0019FA8D /* Audio */,
+				3320B0261EFBD1BB0019FA8D /* Main */,
+				3320B0281EFBD1BB0019FA8D /* Resources */,
+				3320B02B1EFBD1BB0019FA8D /* Video */,
+			);
+			path = AudioVedioMenu;
+			sourceTree = "<group>";
+		};
+		3320B0231EFBD1BB0019FA8D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3320B0241EFBD1BB0019FA8D /* LPAudioTableViewCell.swift */,
+				3320B0251EFBD1BB0019FA8D /* LPAudioViewController.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		3320B0261EFBD1BB0019FA8D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3320B0271EFBD1BB0019FA8D /* AudioAndVedioController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3320B0281EFBD1BB0019FA8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3320B0291EFBD1BB0019FA8D /* happy_ending.mp3 */,
+				3320B02A1EFBD1BB0019FA8D /* kakao.caf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3320B02B1EFBD1BB0019FA8D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				3320B02C1EFBD1BB0019FA8D /* LPVedioViewController.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		332204B81E1E3D6A00A40248 /* AES128_RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +574,8 @@
 		335A17451D43170000B5A5BC /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				3320B0221EFBD1BB0019FA8D /* AudioVedioMenu */,
+				33F12DD21EF38A840052C42D /* Safari浏览器 */,
 				333A23261EEA99B8007C92EF /* 年华收益计算器 */,
 				33FD92001EE801C700BB8166 /* CLLocation */,
 				3375E47C1E89FC1F001D58E8 /* SwiftBase */,
@@ -648,6 +709,14 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		33F12DD21EF38A840052C42D /* Safari浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				33F12DD31EF38AD80052C42D /* TestSafariController.swift */,
+			);
+			path = "Safari浏览器";
+			sourceTree = "<group>";
+		};
 		33FD92001EE801C700BB8166 /* CLLocation */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,13 +820,18 @@
 		335A17051D4315E100B5A5BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "pingjun lin";
 				TargetAttributes = {
 					335A170C1D4315E100B5A5BC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = P4Q3S6FX46;
 						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					335A17251D4315E100B5A5BC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -808,8 +882,10 @@
 				335A171D1D4315E100B5A5BC /* Assets.xcassets in Resources */,
 				337738431E24B54F00CDC835 /* RongCloud.bundle in Resources */,
 				3342EFE01E1E7D2E0070FA08 /* rsa_private_key.pem in Resources */,
+				3320B0301EFBD1BB0019FA8D /* happy_ending.mp3 in Resources */,
 				337738421E24B54F00CDC835 /* RongCloudKit.strings in Resources */,
 				335A17501D43702F00B5A5BC /* ThreeDTransformController.xib in Resources */,
+				3320B0311EFBD1BB0019FA8D /* kakao.caf in Resources */,
 				335A171B1D4315E100B5A5BC /* Main.storyboard in Resources */,
 				334A9B491E14D77A008969E4 /* image.bundle in Resources */,
 				332204C81E1E3F7800A40248 /* AESRSA128Controller.xib in Resources */,
@@ -851,9 +927,12 @@
 				33877E471E54591D00194936 /* FirstViewController.m in Sources */,
 				3375E4821E8CE98E001D58E8 /* PlistManager.swift in Sources */,
 				3375E47E1E89FC34001D58E8 /* SwiftBaseViewController.swift in Sources */,
+				3320B02D1EFBD1BB0019FA8D /* LPAudioTableViewCell.swift in Sources */,
 				335A17481D43176200B5A5BC /* StartTableViewController.m in Sources */,
+				3320B02F1EFBD1BB0019FA8D /* AudioAndVedioController.swift in Sources */,
 				3342EFDC1E1E743B0070FA08 /* RSAEncryptor.m in Sources */,
 				33403F341E4D5EFE00B48DFB /* SwizzlingViewController.m in Sources */,
+				3320B02E1EFBD1BB0019FA8D /* LPAudioViewController.swift in Sources */,
 				3342EFD61E1E72620070FA08 /* AES128Util.m in Sources */,
 				3375E4791E89F7FE001D58E8 /* ConfigurationPlistController.swift in Sources */,
 				334AA5C91D460CE700549690 /* CAShapeLayerController.m in Sources */,
@@ -865,6 +944,8 @@
 				332204C21E1E3D6A00A40248 /* GTMBase64.m in Sources */,
 				334A9B461E14D736008969E4 /* TestOfBundleController.m in Sources */,
 				3338D2F11E4C67F500117E4D /* LeakInspectorViewController.m in Sources */,
+				33F12DD41EF38AD80052C42D /* TestSafariController.swift in Sources */,
+				3320B0321EFBD1BB0019FA8D /* LPVedioViewController.swift in Sources */,
 				33318E381E84EFAD00270478 /* UIViewController+Swizzling.m in Sources */,
 				33FD92021EE801EB00BB8166 /* TCLLocationController.swift in Sources */,
 				33403F371E4D5F8800B48DFB /* UIViewController+Tracking.m in Sources */,
@@ -942,6 +1023,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -952,8 +1034,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -987,6 +1071,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -997,8 +1082,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1017,6 +1104,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

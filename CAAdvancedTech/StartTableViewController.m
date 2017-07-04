@@ -44,7 +44,9 @@
                                                 @"iOS字体遍历器",
                                                 @"plist文件配置",
                                                 @"地理位置测试",
-                                                @"年化收益计算器"]];
+                                                @"年化收益计算器",
+                                                @"Safari加载连接",
+                                                @"音频视频主页"]];
     
     _controllersArr = [NSMutableArray new];
     [_controllersArr addObjectsFromArray:@[@"FirstViewController",
@@ -60,7 +62,9 @@
                                            @"IOSFontViewController",
                                            @"ConfigurationPlistController",
                                            @"TCLLocationController",
-                                           @"IncomeRateCalculatorController"]];
+                                           @"IncomeRateCalculatorController",
+                                           @"TestSafariController",
+                                           @"AudioAndVedioController"]];
 }
 
 - (void)viewDidLoad {
@@ -125,6 +129,12 @@
     }
     else if ([@"IncomeRateCalculatorController" isEqualToString:self.controllersArr[indexPath.row]]) {
         controller = [self controllerWithStoryboardName:@"Main" controllerId:self.controllersArr[indexPath.row]];
+    }
+    else if ([@"TestSafariController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[TestSafariController alloc] init];
+    }
+    else if ([@"AudioAndVedioController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [self controllerWithStoryboardName:@"Main" controllerId:@"AudioAndVedioController"];
     }
     else {
         controller = [[NSClassFromString(self.controllersArr[indexPath.row]) alloc] init];
