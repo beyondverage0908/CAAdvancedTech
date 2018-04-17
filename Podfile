@@ -9,5 +9,7 @@ target 'CAAdvancedTech' do
 #   Pods for GongYunTong
 
 pod "LPSToolUtil"
+pod 'Masonry'
+pod 'AFNetworking'
 
 end

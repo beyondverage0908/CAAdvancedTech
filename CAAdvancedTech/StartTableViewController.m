@@ -16,6 +16,11 @@
 #import "ContactsController.h"
 #import "LeakInspectorViewController.h"
 #import "SwizzlingViewController.h"
+#import "RuntimeController.h"
+#import "UploadVedioController.h"
+#import "LocalDataFormatterViewController.h"
+#import "FileOperationController.h"
+#import "Algo1ViewController.h"
 
 @class ElevatorControlCenterController;
 
@@ -46,7 +51,12 @@
                                                 @"地理位置测试",
                                                 @"年化收益计算器",
                                                 @"Safari加载连接",
-                                                @"音频视频主页"]];
+                                                @"音频视频主页",
+                                                @"Runtime示例",
+                                                @"视频操作",
+                                                @"缓存DateFormatter",
+                                                @"文件操作",
+                                                @"算法题一"]];
     
     _controllersArr = [NSMutableArray new];
     [_controllersArr addObjectsFromArray:@[@"FirstViewController",
@@ -64,7 +74,12 @@
                                            @"TCLLocationController",
                                            @"IncomeRateCalculatorController",
                                            @"TestSafariController",
-                                           @"AudioAndVedioController"]];
+                                           @"AudioAndVedioController",
+                                           @"RuntimeController",
+                                           @"UploadVedioController",
+                                           @"LocalDataFormatterViewController",
+                                           @"FileOperationController",
+                                           @"Algo1ViewController"]];
 }
 
 - (void)viewDidLoad {
@@ -135,6 +150,18 @@
     }
     else if ([@"AudioAndVedioController" isEqualToString:self.controllersArr[indexPath.row]]) {
         controller = [self controllerWithStoryboardName:@"Main" controllerId:@"AudioAndVedioController"];
+    }
+    else if ([@"UploadVedioController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[UploadVedioController alloc] init];
+    }
+    else if ([@"LocalDataFormatterViewController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[LocalDataFormatterViewController alloc] init];
+    }
+    else if ([@"FileOperationController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[FileOperationController alloc] init];
+    }
+    else if ([@"Algo1ViewController" isEqualToString:self.controllersArr[indexPath.row]]) {
+        controller = [[Algo1ViewController alloc] init];
     }
     else {
         controller = [[NSClassFromString(self.controllersArr[indexPath.row]) alloc] init];

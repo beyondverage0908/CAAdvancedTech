@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>VPLUSUrlSechemeTestType</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -49,8 +53,8 @@
 			</dict>
 		</dict>
 	</dict>
-    <key>NSAppleMusicUsageDescription</key>
-    <string>需要访问您的音乐库</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>需要访问您的音乐库</string>
 	<key>NSCameraUsageDescription</key>
 	<string>需要访问您的相机</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -59,6 +63,8 @@
 	<string>需要访问您的麦克风</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要访问您的相册</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>'传说'需要访问相片/视频，方便保存到您的相册</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
